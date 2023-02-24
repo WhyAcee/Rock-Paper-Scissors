@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+      </style>
 </head>
 <body>
-    
+    <h1>ROCK!!! PAPER!!! SCISSORS!!!</h1>
+            <button class="new">New Game</button>
+    <div class="score">
+        <div class="pScore">Player Score: 0</div>
+        <div class="cScore">Computer Score: 0</div>
+    </div>
+    <div class="button-container">
+        <button class="rock"><img src="/imgs/rock.png" alt="rock"><br>Rock</button>
+        <button class="paper"><img src="/imgs/paper.png" alt="paper"><br>Paper</button>
+        <button class="scissors"><img src="/imgs/scissors.png" alt="scissors"><br>Scissors</button>
+    </div>
+    <div class="results">Click New Game To Start!</div>
 </body>
 </html>
